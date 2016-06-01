@@ -1,5 +1,5 @@
 # Flying hero!
 
-To start the game, run the following:
+Para correr el juego, ejecutar:
 
     ruby flying_hero.rb
