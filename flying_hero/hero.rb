@@ -23,13 +23,4 @@ class Hero
   def move_down!
     @y +=  5
   end
-
-  def move_left!
-    @x -=  5
-  end
-
-  def move_right!
-    @x +=  5
-  end
-
 end
