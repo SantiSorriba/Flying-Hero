@@ -5,10 +5,16 @@ attr_accessor :x
 
   def initialize(window)
     super
-    @scale_x = 2
-    @scale_y = 2
   end
 
+  def self.scale_x
+    2
+  end
+
+  def self.scale_y
+    2
+  end
+  
   def move!
     @x -= 15
   end
